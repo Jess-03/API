@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(167 182 216 / 72%);
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(0, 29, 62);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 20px;
+}
+
+/* Botón */
+.cont-boton {
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #042d4c;
+    color: aliceblue;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #4b7ba0;
+}
+
+
+thead {
+    background-color: #7495bf;
+}
+
+tbody {
+    border-bottom: 1px solid aliceblue;
+}
