@@ -32,6 +32,9 @@ h1{
     color: #4b7ba0;
 }
 
+.table{
+    --bs-table-hover-bg: rgb(47 85 151 / 14%);
+}
 
 thead {
     background-color: #7495bf;
@@ -39,4 +42,9 @@ thead {
 
 tbody {
     border-bottom: 1px solid aliceblue;
+}
+
+img {
+    border-radius: 50px;
+    border: solid #aeb9c4;
 }
