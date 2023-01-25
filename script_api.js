@@ -14,7 +14,7 @@ const showData = (users) => {
     document.getElementById('data').innerHTML = showTableData;
 }
 
-let tiempoDeVida;
+let tiempoDeVida = localStorage.getItem('tiempoDeVida');
 
 const btnGetUsers = document.getElementById("getUsers")
 btnGetUsers.addEventListener('click', () => {
